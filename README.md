@@ -29,8 +29,9 @@ Dans cette section, nous explorerons les fondamentaux de Flask.
 
 ### Gestion des Routes Complexes
 
-- Créez des routes avec des paramètres dynamiques.
-- Utilisez ces paramètres pour personnaliser le contenu de la page.
+- Dans le fichier app.py, créez une route /hello/<name> qui affiche un message de salutation personnalisé en utilisant le paramètre name.
+- Testez cette route en ouvrant votre navigateur et en accédant à http://localhost:5000/hello/votre-nom.
+
 
 ### Blueprints
 
