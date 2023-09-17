@@ -35,13 +35,17 @@ Dans cette section, nous explorerons les fondamentaux de Flask.
 
 ### Blueprints
 
-- Divisez votre application en blueprints pour une meilleure organisation du code.
-- Créez des blueprints pour gérer des sections spécifiques de votre application.
+- Créez un blueprint nommé auth dans un fichier séparé.
+- Ajoutez une route /login à ce blueprint qui affiche un formulaire de connexion.
+- Utilisez le blueprint dans votre application principale pour gérer les routes liées à l'authentification.
+- Testez la route /login en vous rendant sur http://localhost:5000/auth/login.
+
 
 ### Utilisation de Cookies et de Sessions
 
-- Apprenez à utiliser des cookies et des sessions pour stocker des informations utilisateur.
-- Implémentez une fonctionnalité de connexion/déconnexion.
+- Ajoutez la prise en charge des sessions dans votre application Flask.
+- Créez une route /login qui stocke un identifiant de session lorsque l'utilisateur se connecte.
+- Créez une route /logout qui supprime l'identifiant de session lorsque l'utilisateur se déconnecte.
 
 ## Gestion des Fichiers
 
@@ -49,44 +53,28 @@ Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 
 ### Téléchargement de Fichiers
 
-- Créez une fonctionnalité permettant aux utilisateurs de télécharger des fichiers.
+- Créez une route /upload qui permet aux utilisateurs de télécharger des fichiers.
 - Utilisez Flask-Uploads pour gérer les téléchargements de fichiers.
+- Affichez un message de succès après le téléchargement du fichier.
 
 ### Génération de Fichiers PDF
 
-- Utilisez la bibliothèque ReportLab pour générer des fichiers PDF dynamiques à partir de données de l'application.
-
+- Installez la bibliothèque ReportLab en utilisant pip.
+- Créez une route /generate-pdf qui génère un fichier PDF simple en utilisant ReportLab.
+- Servez le fichier PDF généré en tant que réponse HTTP.
+  
 ## Authentification et Sécurité
 
 Dans cette section, nous nous concentrerons sur la sécurité de votre application Flask.
 
 ### Authentification par Token
 
-- Implémentez l'authentification basée sur les tokens (JWT) pour sécuriser vos routes.
-- Créez des routes protégées par authentification.
+- Utilisez la bibliothèque Flask-JWT-Extended pour implémenter l'authentification basée sur les tokens.
+- Créez une route /protected qui nécessite un token valide pour accéder.
 
 ### Protection contre les Attaques CSRF
 
-- Protégez votre application contre les attaques CSRF en utilisant Flask-WTF.
+- Utilisez Flask-WTF pour ajouter une protection CSRF à votre formulaire de connexion.
+- Vérifiez que votre application rejette les soumissions de formulaire CSRF.
 
-## Conclusion
 
-Dans cette dernière section, nous résumerons ce que vous avez appris et encouragerons l'exploration continue de Flask.
-
-### Récapitulatif
-
-- Résumez ce que vous avez appris pendant ce workshop Flask avancé.
-- Encouragez les utilisateurs à explorer davantage Flask.
-
-### Documentation
-
-- Rédigez une documentation complète pour votre projet Flask avancé, en incluant des captures d'écran et des exemples.
-- Créez un README.md pour le référencement sur GitHub.
-
----
-**Remarques** :
-- Chaque étape devrait être accompagnée d'exemples de code complets et de commentaires pour expliquer ce qui se passe.
-- Utilisez des fichiers séparés pour les modèles, les routes, etc., pour organiser votre application Flask.
-- Assurez-vous de bien documenter votre projet sur GitHub, en incluant des captures d'écran et des instructions d'installation.
-
-Ce plan d'apprentissage avancé Flask devrait vous permettre de découvrir Flask en 4 heures de travail intensif, sans nécessiter l'utilisation de SQL. Vous aurez une application web avancée que vous pourrez déployer en ligne.
