@@ -1,4 +1,4 @@
-# WORKSHOP EPITECH -> Découverte Flask
+# WORKSHOP EPITECH -> Découverte Flask 😊
 
 Bienvenue dans le Workshop EPITECH sur la découverte de Flask ! Ce guide vous aidera à explorer Flask en profondeur tout en abordant des sujets avancés.
 
