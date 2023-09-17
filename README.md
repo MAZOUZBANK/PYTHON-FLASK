@@ -63,7 +63,7 @@ Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 - Créez une route /generate-pdf qui génère un fichier PDF simple en utilisant ReportLab.
 - Servez le fichier PDF généré en tant que réponse HTTP.
   
-## Authentification et Sécurité (45 min)
+## Authentification et Sécurité (1h)
 
 Dans cette section, nous nous concentrerons sur la sécurité de votre application Flask.
 
