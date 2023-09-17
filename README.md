@@ -23,7 +23,7 @@ Dans cette première section, nous mettrons en place notre environnement de dév
 - Créez un répertoire pour votre projet Flask.
 - Initialisez un fichier Python (app.py) pour votre application web.
 
-## Les Bases de Flask
+## Les Bases de Flask (45 min / 1h)
 
 Dans cette section, nous explorerons les fondamentaux de Flask.
 
@@ -47,7 +47,7 @@ Dans cette section, nous explorerons les fondamentaux de Flask.
 - Créez une route /login qui stocke un identifiant de session lorsque l'utilisateur se connecte.
 - Créez une route /logout qui supprime l'identifiant de session lorsque l'utilisateur se déconnecte.
 
-## Gestion des Fichiers
+## Gestion des Fichiers (45 min)
 
 Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 
@@ -63,7 +63,7 @@ Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 - Créez une route /generate-pdf qui génère un fichier PDF simple en utilisant ReportLab.
 - Servez le fichier PDF généré en tant que réponse HTTP.
   
-## Authentification et Sécurité
+## Authentification et Sécurité (45 min)
 
 Dans cette section, nous nous concentrerons sur la sécurité de votre application Flask.
 
