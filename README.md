@@ -1,7 +1,15 @@
 # WORKSHOP EPITECH -> Découverte Flask 😊
 
-Bienvenue dans le Workshop EPITECH sur la découverte de Flask ! Ce guide vous aidera à explorer Flask en profondeur tout en abordant des sujets avancés.
+Bienvenue au Workshop EPITECH Flask proposé par:
 
+Sacha Mazouz
+
+Julian Fremont
+
+Benjamin Koksas
+
+
+Cet atelier vous guidera à travers les bases de Flask, une bibliothèque Python afin de construire des api.
 ## Table des Matières
 
 1. [Introduction -- 5 min](#introduction)
