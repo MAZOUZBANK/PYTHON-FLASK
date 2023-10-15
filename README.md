@@ -6,8 +6,6 @@ Sacha Mazouz
 
 Julian Fremont
 
-Benjamin Koksas
-
 
 Cet atelier vous guidera à travers les bases de Flask, une bibliothèque Python afin de construire des api.
 ## Table des Matières
