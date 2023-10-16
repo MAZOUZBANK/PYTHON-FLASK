@@ -66,6 +66,12 @@ Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 ### Génération de Fichiers PDF
 
 - Installez la bibliothèque ReportLab en utilisant pip.
+  EN CAS D'ERREUR AU LANCEMENT, CHANGEZ:
+from werkzeug import secure_filename, FileStorage
+par:
+from werkzeug.utils import secure_filename
+from werkzeug.datastructures import  FileStorage
+
 - Créez une route /generate-pdf qui génère un fichier PDF simple en utilisant ReportLab.
 - Servez le fichier PDF généré en tant que réponse HTTP.
   
