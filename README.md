@@ -29,7 +29,7 @@ Dans cette première section, nous mettrons en place notre environnement de dév
 - Créez un répertoire pour votre projet Flask.
 - Initialisez un fichier Python (app.py) pour votre application web.
 
-## Les Bases de Flask (45 min / 1h)
+## Les Bases de Flask (1h15-1h30)
 
 Dans cette section, nous explorerons les fondamentaux de Flask.
 
@@ -39,7 +39,7 @@ Dans cette section, nous explorerons les fondamentaux de Flask.
 - Testez cette route en ouvrant votre navigateur et en accédant à http://localhost:5000/hello/votre-nom.
 
 
-### Blueprints
+### Blueprints + HTML
 
 - Créez un blueprint nommé auth dans un fichier séparé.
 - Ajoutez une route /login à ce blueprint qui affiche un formulaire de connexion.
@@ -57,7 +57,7 @@ Dans cette section, nous explorerons les fondamentaux de Flask.
 
 Dans cette section, nous aborderons la gestion des fichiers avec Flask.
 
-### Téléchargement de Fichiers
+### Téléchargement de Fichiers + HTML
 
 - Créez une route /upload qui permet aux utilisateurs de télécharger des fichiers.
 - Utilisez Flask-Uploads pour gérer les téléchargements de fichiers.
